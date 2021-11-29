@@ -1,0 +1,70 @@
+.about{
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+}
+.about>img{
+    width: 100%;
+    position: absolute;
+}
+.about>div{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    margin-right: 20rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 9;
+
+}
+.about>div>p{
+    color: white;
+}
+.about>div>p:nth-of-type(1){
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-top: 7rem ;
+    height: 10%;
+}
+.about>div>p:nth-of-type(2){
+    font-size: 3.6rem;
+    /* margin-top: 3rem ; */
+    font-weight: bold;
+    height: 10%;
+
+}
+.about>div>p:nth-of-type(3),.about>div>p:nth-of-type(4){
+    /* margin-top: 1.5rem; */
+    font-size: 1.5rem;
+    height: 10%;
+
+}
+.about>div>p:nth-of-type(4){
+    text-align: left;
+    font-weight: bold;
+    line-height: 3rem;
+    height: 30%;
+
+}
+
+.about>div>button{
+    margin: 0 auto;
+    /* margin-top: 5rem; */
+    width: 12rem;
+    height: 4rem;
+    color: white;
+    background-color: rgb(141,187,210);
+    border: 2px solid white;
+    border-bottom:2px solid rgb(168,213,3);
+    border-right:2px solid rgb(168,213,3);
+    border-radius: 2rem;
+}
+.about>div>button:hover{
+    cursor: pointer;
+    color:rgb(168,213,3);
+    background-color: white;
+    border: 2px solid rgb(168,213,3);
+}

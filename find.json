@@ -1,0 +1,54 @@
+{
+    "list": [{
+        "imgurl": "http://127.0.0.1:5500/img/x1.jpg",
+        "note": "提拉米苏豪华宝藏茶"
+      },
+      {
+        "imgurl": "http://127.0.0.1:5500/img/x2.jpg",
+        "note": "霸气芝士车厘子"
+      },
+      {
+        "imgurl": "http://127.0.0.1:5500/img/x3.jpg",
+        "note": "芝士铁观音"
+      },{
+        "imgurl": "http://127.0.0.1:5500/img/x4.jpg",
+        "note": "芝士金色山脉"
+      },{
+        "imgurl": "http://127.0.0.1:5500/img/x5.jpg",
+        "note": "茉莉初雪"
+      },{
+        "imgurl": "http://127.0.0.1:5500/img/x6.jpg",
+        "note": "奈雪初露"
+      },{
+        "imgurl": "http://127.0.0.1:5500/img/x7.jpg",
+        "note": "金色山脉宝藏茶"
+      },{
+        "imgurl": "http://127.0.0.1:5500/img/x8.jpg",
+        "note": "Miss可可宝藏茶"
+      },{
+        "imgurl": "http://127.0.0.1:5500/img/x9.jpg",
+        "note": "维他豆奶宝藏茶"
+      },{
+        "imgurl": "http://127.0.0.1:5500/img/x10.jpg",
+        "note": "清欢乌龙宝藏茶"
+      },{
+        "imgurl": "http://127.0.0.1:5500/img/x11.jpg",
+        "note": "杨枝甘露宝藏茶"
+      },{
+        "imgurl": "http://127.0.0.1:5500/img/x12.jpg",
+        "note": "霸气杨梅"
+      },{
+        "imgurl": "http://127.0.0.1:5500/img/x13.jpg",
+        "note": "霸气西柚"
+      },{
+        "imgurl": "http://127.0.0.1:5500/img/x14.jpg",
+        "note": "霸气葡萄"
+      },{
+        "imgurl": "http://127.0.0.1:5500/img/x15.jpg",
+        "note": "霸气橙子"
+      },{
+        "imgurl": "http://127.0.0.1:5500/img/x16.jpg",
+        "note": "霸气芝士芒果"
+      }
+    ]
+  }

@@ -1,0 +1,147 @@
+.nx_login{
+    width: 30%;
+    height: 80rem;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(-100%);
+    transition: all 0.5s;
+}
+.nx_login>.login_header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+.nx_login>.login_header>img{
+    width: 8%;
+}
+
+.nx_login>img{
+    width: 30%;
+    position: absolute;
+    top: 10%;
+
+}
+
+.nx_login>.login_border{
+    height: 60%;
+    border:2px solid rgb(168,213,3);
+    margin-top:10rem ;
+    padding: 0 3rem;
+
+}
+.nx_login>.login_border>p{
+    font-size: 3.6rem;
+    font-weight: bold;
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+    color: rgba(7, 7, 7, 0.767) ;
+}
+
+.nx_login>.login_border>.login_button{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nx_login>.login_border>.login_button>button{
+    width: 8rem;
+    height: 3rem;
+    color: rgb(168,213,3);
+    border: 2px solid white;
+    background-color: white;
+    border-bottom:2px solid rgb(168,213,3);
+    border-right:2px solid rgb(168,213,3);
+    border-radius: 2rem;
+}
+
+/* todo 登录框 */
+.nx_login>.login_border>.login_dl{
+    width: 80%;
+    margin: 5rem auto;
+    padding: 1rem 2rem 3rem 2rem;
+    border:2px solid rgb(168,213,3);
+    display: flex;
+    flex-direction: column;
+    transform: scale(0);
+    transition: all 0.5s;
+}
+
+.nx_login #username,.nx_login #psd{
+    height: 3rem;
+    line-height: 2.5rem;
+    margin: 1rem 0;
+    border: none;
+    border-bottom:1px solid rgb(168,213,3);
+    outline-style: none;
+}
+.nx_login #psd{
+    margin-bottom: 2rem;
+}
+.login_dl>div{
+    display: flex;
+}
+
+.login_dl label{
+    margin-top: -0.4rem;
+    margin-left: 0.5rem;
+    font-size: 1.4rem;
+    color: rgb(92, 92, 92);
+    cursor: pointer;
+}
+
+.login_dl a{
+    margin-left: 9rem;
+    margin-top: -0.4rem;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: rgb(168,213,3);
+    transition: all 0.5s;
+}
+
+.login_dl a:hover{
+    font-weight: bold;
+}
+
+
+/* todo 第二页菜单页面 */
+.nx_login_menu{
+    transform: scale(0);
+    transition: all 0.3s;
+}
+.nx_login_menu>.nx_login_menu_ul{
+    width: 60%;
+    list-style: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(92, 92, 92);
+}  
+
+.nx_login_menu>.nx_login_menu_ul>li{
+    border-bottom:1px solid rgb(206, 206, 206);
+
+}
+
+.nx_login_menu>.nx_login_menu_ul>li>p{
+    margin: 3rem 0;
+}
+
+.nx_login_menu>.nx_login_menu_foot{
+    width: 60%;
+    list-style: none;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: rgb(92, 92, 92);
+    display: flex;
+    margin-top: 3rem;
+}  
+.nx_login_menu>.nx_login_menu_foot>li{
+    margin-left: 2rem;
+}
